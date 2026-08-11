@@ -66,6 +66,8 @@ nav > .tel {
 .hero .hero-text {
     font-size: 36px;
     text-transform: capitalize;
+    letter-spacing: 4px;
+    word-spacing: 2px;
 }
 .hero p {
     font-size: 20px;
@@ -78,7 +80,7 @@ nav > .tel {
     background-color: #5f8a2a;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 2px 20px  0 10px;
     margin-top: 20px;
     cursor: pointer;
     word-spacing: 2px;
