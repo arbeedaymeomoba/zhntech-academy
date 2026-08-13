@@ -3,59 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>TastyBite Website Landing Page</title>
-    <style>
-        .site-footer {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            background: #222;
-            color: #fff;
-            padding: 30px 20px;
-            margin-top: 30px;
-        }
+    <!-- <style> 
+        /* .site-footer { */
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            /* gap: 20px; */
+            /* background: #222; */
+            /* color: #fff; */
+            /* padding: 30px 20px; */
+            /* margin-top: 30px; */
+        /* } */
 
-        .footer-column {
-            flex: 1;
-            min-width: 180px;
-        }
+        /* .footer-column { */
+            /* flex: 1; */
+            /* min-width: 180px; */
+        /* } */
 
-        .footer-column h3 {
-            margin-bottom: 10px;
-            color: #ffb703;
-        }
+        /* .footer-column h3 { */
+            /* margin-bottom: 10px; */
+            /* color: #ffb703; */
+        /* } */
 
-        .footer-column p, .footer-column ul {
-            margin: 0;
-            line-height: 1.6;
-        }
+        /* .footer-column p, .footer-column ul { */
+            /* margin: 0; */
+            /* line-height: 1.6; */
+        /* } */
 
-        .footer-column ul {
-            list-style: none;
-            padding: 0;
-        }
+        /* .footer-column ul { */
+            /* list-style: none; */
+            /* padding: 0; */
+        /* } */
 
-        .social-links {
-            display: flex;
-            gap: 10px;
-            margin-top: 8px;
-        }
+        /* .social-links { */
+            /* display: flex; */
+            /* gap: 10px; */
+            /* margin-top: 8px; */
+        /* } */
 
-        .social-links a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            background: #ffb703;
-            color: #222;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 16px;
-        }
-    </style>
+        /* .social-links a { */
+            /* display: inline-flex; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* width: 36px; */
+            /* height: 36px; */
+            /* border-radius: 50%; */
+            /* background: #ffb703; */
+            /* color: #222; */
+            /* text-decoration: none; */
+            /* font-weight: bold; */
+            /* font-size: 16px; */
+        /* } */
+    /* </style> */ -->
 </head>
 <body>
     <header>
@@ -80,7 +81,7 @@
         <section class="hero">
             
            
-            <h1>Welcome to TastyBite!</h1>
+            <h1>Welcome to TastyBite! <i class="fa-solid fa-bowl-food"></i></h1>
             <span class = "hero-text"> 
                 Enjoy The Real Fresh Food From Our Cuisine 
             </span>
@@ -91,28 +92,36 @@
                 Our goal is to ensure you have a good time with us.
             </p>
             
-            <button><a href="Menu.html" class="btn">See Menu</a></button>
+            <button>See Menu</button>
+             <!-- <button><a href="Menu.html" class="btn">See Menu <i class="fa-solid fa-magnifying-glass"></i></a></button> -->
             
         </section>
-        <section>
-            <div class="image-container">
-                <img src="asset/images/Rectangle 6.png" alt="Food Image 1" width="300" height="200">
-                <img src="asset/images/Rectangle 7.png" alt="Food Image 2" width="300" height="200">
+        <!-- About us section -->
+        <section class = "about">
+
+            <!-- left content -->
+            <div class="left-content">
+                <img src="asset/images/Rectangle 6.png" alt="Kebab" width="400" height="300">
+                <!-- <img src="asset/images/Rectangle 7.png" alt="Food Image 2" width="300" height="200"> -->
             </div>
-            <div class="word-container">
-                <h3>About Us</h3>
-                <p><h2>We Make The Best Food Restaurants</h2></p>
+
+            <!-- right content -->
+            <div class="right-content">
+                <h2>About Us</h2>
+                <span>We Make The Best Food Restaurants</span>
                 <p>There are many varaton of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                 <p>There are many varaton of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
 
-                <p><h1>Our Special Dishes Of The Day</h1></p>
+                <h2 class="About-us-sub-heading">Our Special Dishes Of The Day</h2>
                 <ul>
                     <li>Thai</li>
                     <li>Chinese</li>
                     <li>Continental</li>
-                    <p></p>
-                    <button><a href="Menu.html" class="btn">See Menu</a></button>
-                    <p></p>
+                  
+                    <button>See Menu</button>
+                    <!-- <button><a href="Menu.html" class="btn">See Menu</a></button> -->
+                    
+                    
                 </ul>
             </div>
         </section>
